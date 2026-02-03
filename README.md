@@ -15,7 +15,7 @@ O objetivo é facilitar o acesso ao meu **LinkedIn, GitHub, TikTok** e **contato
 
 - LinkedIn: https://www.linkedin.com/in/ana-santos-05697a1b3/
 - GitHub: https://github.com/anaclarasantos-dev
-- 
+
 ---
 
 ✨ Em constante aprendizado e evolução.
