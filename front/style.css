@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,500;1,600&display=swap');
+
+/* estilização para a pagina inteira*/
+:root{
+    --global: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px;
+    background: linear-gradient(135deg, #1f1c2c, #514a6e);
+    color: var(--global);
+}
+
+.topic-itens, .links, .projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+.foto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;
+  left: 25px;
+  object-fit: cover;
+}
+
+.nome{
+    font-size: 20px;
+}
+
+.topic-itens{
+    gap: 5px;
+}
+
+/*links para linkedin, git, e tiktok*/
+.links {
+  gap: 12px;
+}
+
+.link-item {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.4s ease-in-out;
+}
+.link-item img {
+  position: absolute;
+  left: 16px; 
+  filter: invert(1);
+}
+
+.link-item:hover{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    transform: scale(1.03);
+}
+.link-item span {
+  width: 100%;
+  text-align: center; 
+}
+
+a{
+ text-decoration: none;
+ color: inherit;
+}
+
+/*projetos*/
+.container_projetos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.titulo_descricao{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    border: 2px solid #ffffff;
+    padding: 12px 25px;
+    border-radius: 20px;
+    gap: 20px;
+    cursor: pointer;
+ transition: transform 0.4s ease-in-out;
+}
+
+.descricao{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.titulo{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.projetos{
+    gap: 5px;
+}
+
+.projeto_destaque{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    gap:10px;
+
+}
+
+
+.img-projeto-wrap{
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* imagem */
+.img-projeto{
+    border-radius: 20px;
+  display: block;
+  width: 600px;   /* mantém seu tamanho */
+  height: 300px;
+  object-fit: cover;
+  transition: opacity 0.35s ease, transform 0.4s ease-in-out;
+}
+
+/* overlay */
+.overlay-projeto{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.overlay-projeto span{
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 999px;
+}
+
+/* hover: escurece a imagem + aparece o botão */
+.img-projeto-wrap:hover .img-projeto{
+  opacity: 0.35;
+  transform: scale(1.03);
+}
+
+.img-projeto-wrap:hover .overlay-projeto{
+  opacity: 1;
+}
+
+.btn-projeto:hover{
+    background-color: #ffffff;
+    color: #1f1c2c;
+}
+
