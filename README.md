@@ -1,0 +1,22 @@
+Este repositório contém uma **página de links pessoal**, desenvolvida para centralizar minhas principais redes profissionais e apresentar um projeto em destaque.
+
+O objetivo é facilitar o acesso ao meu **LinkedIn, GitHub, TikTok** e **contato**, além de servir como uma página de apresentação profissional.
+
+---
+
+## Tecnologias utilizadas
+
+- HTML  
+- CSS  
+
+---
+
+## Contato
+
+- LinkedIn: https://www.linkedin.com/
+- GitHub: https://github.com/
+- TikTok: https://www.tiktok.com/
+
+---
+
+✨ Em constante aprendizado e evolução.
