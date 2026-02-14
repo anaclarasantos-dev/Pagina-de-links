@@ -19,3 +19,6 @@ O objetivo é facilitar o acesso ao meu **LinkedIn, GitHub, TikTok** e **contato
 ---
 
 ✨ Em constante aprendizado e evolução.
+
+## Imagem do projeto
+<img width="1162" height="927" alt="image" src="https://github.com/user-attachments/assets/af66080c-e2af-4b72-b941-2fcf5087d2c2" />
